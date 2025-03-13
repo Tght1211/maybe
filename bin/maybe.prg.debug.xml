@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="E:\data\garmin\maybe\manifest.xml"/>
+<pcToLineNum>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="1" lineNum="5" parent="globals/maybeApp" pc="268435457" symbol="&lt;init&gt;"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="2" lineNum="26" parent="globals" pc="268435469" symbol="getApp"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="2" lineNum="27" parent="globals" pc="268435479" symbol="getApp"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="3" lineNum="7" parent="globals/Rez" pc="268435490" symbol="&lt;init&gt;"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="4" lineNum="6" parent="globals/maybeView" pc="268435510" symbol="&lt;init&gt;"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="6" lineNum="20" parent="globals/maybeApp" pc="268435522" symbol="getInitialView"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="6" lineNum="21" parent="globals/maybeApp" pc="268435524" symbol="getInitialView"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="7" lineNum="7" parent="globals/maybeApp" pc="268435554" symbol="initialize"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="7" lineNum="8" parent="globals/maybeApp" pc="268435556" symbol="initialize"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="11" lineNum="13" parent="globals/maybeView" pc="268435569" symbol="onLayout"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="11" lineNum="14" parent="globals/maybeView" pc="268435571" symbol="onLayout"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="13" lineNum="8" parent="globals/maybeView" pc="268435605" symbol="initialize"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="13" lineNum="9" parent="globals/maybeView" pc="268435607" symbol="initialize"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="24" parent="globals/maybeView" pc="268435620" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="26" parent="globals/maybeView" pc="268435623" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="27" parent="globals/maybeView" pc="268435635" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="28" parent="globals/maybeView" pc="268435689" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="29" parent="globals/maybeView" pc="268435713" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="32" parent="globals/maybeView" pc="268435725" symbol="onUpdate"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="13" parent="globals/Rez/Layouts" pc="268435746" symbol="WatchFace"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268435757" symbol="WatchFace"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="16" parent="globals/Rez/Layouts" pc="268435861" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry field="true" id="10" symbol="AppName"/>
+<entry id="5" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="4" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry field="true" id="9" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry id="7" object="true" symbol="maybeView"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="6" object="true" symbol="maybeApp"/>
+<entry field="true" id="8389347" symbol="color"/>
+<entry id="8" module="true" symbol="Layouts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435604" name="dc" stackId="1" startPc="268435569"/>
+<entry arg="true" endPc="268435745" name="dc" stackId="1" startPc="268435620"/>
+<entry endPc="268435744" name="clockTime" stackId="2" startPc="268435623"/>
+<entry endPc="268435744" name="timeString" stackId="3" startPc="268435623"/>
+<entry endPc="268435744" name="view" stackId="4" startPc="268435623"/>
+<entry arg="true" endPc="268435870" name="dc" stackId="1" startPc="268435746"/>
+</localVars>
+<deviceInfo deviceVersion="de121dfa604491767422db2c3063530f8fd6465b" partNumber="006-B3992-00"/>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="58" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/maybeApp" offset="125" parentId="globals" symbolId="maybeApp" type="class"/>
+<dataEntry label="globals/Rez" offset="196" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/maybeView" offset="249" parentId="globals" symbolId="maybeView" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="347" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="382" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="417" parentId="Rez" symbolId="Strings" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="maybeApp" startPc="268435457">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435489" name="getApp" startPc="268435469">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435509" name="&lt;init&gt;" parent="Rez" startPc="268435490">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435521" name="&lt;init&gt;" parent="maybeView" startPc="268435510">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStart" parent="maybeApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435553" name="getInitialView" parent="maybeApp" startPc="268435522">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435568" name="initialize" parent="maybeApp" startPc="268435554">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onStop" parent="maybeApp">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="maybeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="maybeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435604" name="onLayout" parent="maybeView" startPc="268435569">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="maybeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435619" name="initialize" parent="maybeView" startPc="268435605">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="maybeView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435745" name="onUpdate" parent="maybeView" startPc="268435620">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435870" name="WatchFace" parent="Layouts" startPc="268435746">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>
