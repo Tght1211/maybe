@@ -50,9 +50,9 @@ E_data_garmin_maybe_source_maybeView_mc_13_40_15_4_stop:
     }
     [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 24; @symbol_functiondef = [onUpdate,24,13,21]; @symbol_param<0> = [dc,24,22,24]; @symbol_param<0>_type<0> = [Dc,24,28,30]; ]
     function onUpdate(dc as Dc) as Void {
-E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_start:
+E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_start:
 [ "E:\data\garmin\maybe\source\maybeView.mc" 26 8 ]
-        [ "E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_start" "E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_stop" ]
+        [ "E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_start" "E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_stop" ]
         %clockTime.1 = local;
         symbol [ clockTime %clockTime.1 26 12 21 ];
         symbol [ System %tmp.1 26 24 30 ];
@@ -63,73 +63,303 @@ E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_start:
         lputv %clockTime.1 %tmp.3;
         symbol [ clockTime %clockTime.1 26 12 21 ];
 [ "E:\data\garmin\maybe\source\maybeView.mc" 27 8 ]
-        [ "E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_start" "E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_stop" ]
+        [ "E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_start" "E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_stop" ]
         %timeString.2 = local;
         symbol [ timeString %timeString.2 27 12 22 ];
-        symbol [ Lang %tmp.4 27 25 29 ];
-        %tmp.4 = getm $.Toybox.Lang;
-        symbol [ format %tmp.5 27 30 36 ];
-        %tmp.5 = getv function %tmp.4 :format;
-        %tmp.6 = "$1$:$2$";
-        %tmp.7 = newa 2;
-        %tmp.8 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.8 27 49 58 ];
-        symbol [ hour %tmp.9 27 59 63 ];
-        %tmp.9 = getv %tmp.8 :hour;
-        %tmp.10 = dup %tmp.7;
-        %tmp.11 = aputv %tmp.10 0 %tmp.9;
-        %tmp.12 = lgetv %clockTime.1;
-        symbol [ clockTime %tmp.12 27 65 74 ];
-        symbol [ min %tmp.13 27 75 78 ];
-        %tmp.13 = getv %tmp.12 :min;
-        symbol [ format %tmp.14 27 79 85 ];
-        %tmp.14 = getv function %tmp.13 :format;
-        %tmp.15 = "%02d";
-        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
-        %tmp.17 = dup %tmp.11;
-        %tmp.18 = aputv %tmp.17 1 %tmp.16;
-        %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
-        lputv %timeString.2 %tmp.19;
+        %tmp.4 = self;
+        symbol [ getChineseTimeDescription %tmp.5 27 25 50 ];
+        %tmp.5 = getv function %tmp.4 :getChineseTimeDescription;
+        %tmp.6 = lgetv %clockTime.1;
+        symbol [ clockTime %tmp.6 27 51 60 ];
+        %tmp.7 = invoke %tmp.4 %tmp.5(%tmp.6);
+        lputv %timeString.2 %tmp.7;
         symbol [ timeString %timeString.2 27 12 22 ];
-[ "E:\data\garmin\maybe\source\maybeView.mc" 28 8 ]
-        [ "E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_start" "E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_stop" ]
-        %view.3 = local;
-        symbol [ view %view.3 28 12 16 ];
-        symbol [ View %tmp.21 28 19 23 ];
-        %tmp.21 = getv ? :View;
-        symbol [ findDrawableById %tmp.22 28 24 40 ];
-        %tmp.22 = getv function %tmp.21 :findDrawableById;
-        %tmp.23 = "TimeLabel";
-        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
-        %tmp.25 = as %tmp.24 Text;
-        symbol [ Text %tmp.25 28 57 61 ];
-        lputv %view.3 %tmp.25;
-        symbol [ view %view.3 28 12 16 ];
 [ "E:\data\garmin\maybe\source\maybeView.mc" 29 8 ]
-        %tmp.26 = lgetv %view.3;
-        symbol [ view %tmp.26 29 8 12 ];
-        symbol [ setText %tmp.27 29 13 20 ];
-        %tmp.27 = getv function %tmp.26 :setText;
-        %tmp.28 = lgetv %timeString.2;
-        symbol [ timeString %tmp.28 29 21 31 ];
-        invoke %tmp.26 %tmp.27(%tmp.28);
-[ "E:\data\garmin\maybe\source\maybeView.mc" 32 8 ]
-        symbol [ View %tmp.30 32 8 12 ];
-        %tmp.30 = getv ? :View;
-        symbol [ onUpdate %tmp.31 32 13 21 ];
-        %tmp.31 = getv function %tmp.30 :onUpdate;
-        %tmp.32 = lgetv %dc;
-        symbol [ dc %tmp.32 32 22 24 ];
-        invoke %tmp.30 %tmp.31(%tmp.32);
-E_data_garmin_maybe_source_maybeView_mc_24_40_33_4_stop:
+        [ "E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_start" "E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_stop" ]
+        %view.3 = local;
+        symbol [ view %view.3 29 12 16 ];
+        symbol [ View %tmp.9 29 19 23 ];
+        %tmp.9 = getv ? :View;
+        symbol [ findDrawableById %tmp.10 29 24 40 ];
+        %tmp.10 = getv function %tmp.9 :findDrawableById;
+        %tmp.11 = "TimeLabel";
+        %tmp.12 = invoke %tmp.9 %tmp.10(%tmp.11);
+        %tmp.13 = as %tmp.12 Text;
+        symbol [ Text %tmp.13 29 57 61 ];
+        lputv %view.3 %tmp.13;
+        symbol [ view %view.3 29 12 16 ];
+[ "E:\data\garmin\maybe\source\maybeView.mc" 30 8 ]
+        %tmp.14 = lgetv %view.3;
+        symbol [ view %tmp.14 30 8 12 ];
+        symbol [ setText %tmp.15 30 13 20 ];
+        %tmp.15 = getv function %tmp.14 :setText;
+        %tmp.16 = lgetv %timeString.2;
+        symbol [ timeString %tmp.16 30 21 31 ];
+        invoke %tmp.14 %tmp.15(%tmp.16);
+[ "E:\data\garmin\maybe\source\maybeView.mc" 33 8 ]
+        symbol [ View %tmp.18 33 8 12 ];
+        %tmp.18 = getv ? :View;
+        symbol [ onUpdate %tmp.19 33 13 21 ];
+        %tmp.19 = getv function %tmp.18 :onUpdate;
+        %tmp.20 = lgetv %dc;
+        symbol [ dc %tmp.20 33 22 24 ];
+        invoke %tmp.18 %tmp.19(%tmp.20);
+E_data_garmin_maybe_source_maybeView_mc_24_40_34_4_stop:
     }
-    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 38; @symbol_functiondef = [onHide,38,13,19]; ]
+    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 37; @symbol_functiondef = [getChineseTimeDescription,37,13,38]; @symbol_param<0> = [clockTime,37,39,48]; ]
+    function getChineseTimeDescription(clockTime) {
+E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 38 8 ]
+        [ "E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_start" "E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_stop" ]
+        %hour.1 = local;
+        symbol [ hour %hour.1 38 12 16 ];
+        %tmp.1 = lgetv %clockTime;
+        symbol [ clockTime %tmp.1 38 19 28 ];
+        symbol [ hour %tmp.2 38 29 33 ];
+        %tmp.2 = getv %tmp.1 :hour;
+        lputv %hour.1 %tmp.2;
+        symbol [ hour %hour.1 38 12 16 ];
+[ "E:\data\garmin\maybe\source\maybeView.mc" 39 8 ]
+        [ "E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_start" "E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_stop" ]
+        %minute.2 = local;
+        symbol [ minute %minute.2 39 12 18 ];
+        %tmp.3 = lgetv %clockTime;
+        symbol [ clockTime %tmp.3 39 21 30 ];
+        symbol [ min %tmp.4 39 31 34 ];
+        %tmp.4 = getv %tmp.3 :min;
+        lputv %minute.2 %tmp.4;
+        symbol [ minute %minute.2 39 12 18 ];
+[ "E:\data\garmin\maybe\source\maybeView.mc" 40 8 ]
+        [ "E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_start" "E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_stop" ]
+        %timeStr.3 = local;
+        symbol [ timeStr %timeStr.3 40 12 19 ];
+        %tmp.5 = lgetv %hour.1;
+        symbol [ hour %tmp.5 40 22 26 ];
+        symbol [ format %tmp.6 40 27 33 ];
+        %tmp.6 = getv function %tmp.5 :format;
+        %tmp.7 = "%02d";
+        %tmp.8 = invoke %tmp.5 %tmp.6(%tmp.7);
+        %tmp.9 = ":";
+        %tmp.10 = add %tmp.8 %tmp.9;
+        %tmp.11 = lgetv %minute.2;
+        symbol [ minute %tmp.11 40 50 56 ];
+        symbol [ format %tmp.12 40 57 63 ];
+        %tmp.12 = getv function %tmp.11 :format;
+        %tmp.13 = "%02d";
+        %tmp.14 = invoke %tmp.11 %tmp.12(%tmp.13);
+        %tmp.15 = add %tmp.10 %tmp.14;
+        lputv %timeStr.3 %tmp.15;
+        symbol [ timeStr %timeStr.3 40 12 19 ];
+[ "E:\data\garmin\maybe\source\maybeView.mc" 42 8 ]
+E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_stmt:
+E_data_garmin_maybe_source_maybeView_mc_42_12_42_33_begin:
+        %tmp.16 = lgetv %hour.1;
+        symbol [ hour %tmp.16 42 12 16 ];
+        %tmp.17 = 23;
+        %tmp.18 = gte %tmp.16 %tmp.17;
+        bt %tmp.18 @E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_true;
+E_data_garmin_maybe_source_maybeView_mc_42_26_42_33_false:
+        %tmp.19 = lgetv %hour.1;
+        symbol [ hour %tmp.19 42 26 30 ];
+        %tmp.20 = 1;
+        %tmp.21 = lt %tmp.19 %tmp.20;
+        push %tmp.21;
+E_data_garmin_maybe_source_maybeView_mc_42_26_42_33_end:
+        %tmp.22 = phi [%tmp.18 @E_data_garmin_maybe_source_maybeView_mc_42_12_42_33_begin] [%tmp.21 @E_data_garmin_maybe_source_maybeView_mc_42_26_42_33_false] [%tmp.22 @E_data_garmin_maybe_source_maybeView_mc_42_26_42_33_end];
+        bf %tmp.22 @E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_42_36_44_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 43 12 ]
+        %tmp.23 = "? ";
+        %tmp.24 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.24 43 26 33 ];
+        %tmp.25 = add %tmp.23 %tmp.24;
+        %tmp.26 = " ?\nNIGHT";
+        %tmp.27 = add %tmp.25 %tmp.26;
+        ret %tmp.27;
+E_data_garmin_maybe_source_maybeView_mc_42_36_44_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 44 15 ]
+E_data_garmin_maybe_source_maybeView_mc_44_15_60_8_if_stmt:
+        %tmp.28 = lgetv %hour.1;
+        symbol [ hour %tmp.28 44 19 23 ];
+        %tmp.29 = 5;
+        %tmp.30 = lt %tmp.28 %tmp.29;
+        bf %tmp.30 @E_data_garmin_maybe_source_maybeView_mc_44_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_44_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_44_29_46_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 45 12 ]
+        %tmp.31 = "? ";
+        %tmp.32 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.32 45 26 33 ];
+        %tmp.33 = add %tmp.31 %tmp.32;
+        %tmp.34 = " ?\nDAWN";
+        %tmp.35 = add %tmp.33 %tmp.34;
+        ret %tmp.35;
+E_data_garmin_maybe_source_maybeView_mc_44_29_46_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_44_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_44_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 46 15 ]
+E_data_garmin_maybe_source_maybeView_mc_46_15_60_8_if_stmt:
+        %tmp.36 = lgetv %hour.1;
+        symbol [ hour %tmp.36 46 19 23 ];
+        %tmp.37 = 7;
+        %tmp.38 = lt %tmp.36 %tmp.37;
+        bf %tmp.38 @E_data_garmin_maybe_source_maybeView_mc_46_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_46_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_46_29_48_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 47 12 ]
+        %tmp.39 = "? ";
+        %tmp.40 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.40 47 26 33 ];
+        %tmp.41 = add %tmp.39 %tmp.40;
+        %tmp.42 = " ?\nSUNRISE";
+        %tmp.43 = add %tmp.41 %tmp.42;
+        ret %tmp.43;
+E_data_garmin_maybe_source_maybeView_mc_46_29_48_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_46_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_46_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 48 15 ]
+E_data_garmin_maybe_source_maybeView_mc_48_15_60_8_if_stmt:
+        %tmp.44 = lgetv %hour.1;
+        symbol [ hour %tmp.44 48 19 23 ];
+        %tmp.45 = 9;
+        %tmp.46 = lt %tmp.44 %tmp.45;
+        bf %tmp.46 @E_data_garmin_maybe_source_maybeView_mc_48_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_48_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_48_29_50_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 49 12 ]
+        %tmp.47 = "? ";
+        %tmp.48 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.48 49 26 33 ];
+        %tmp.49 = add %tmp.47 %tmp.48;
+        %tmp.50 = " ?\nMORNING";
+        %tmp.51 = add %tmp.49 %tmp.50;
+        ret %tmp.51;
+E_data_garmin_maybe_source_maybeView_mc_48_29_50_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_48_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_48_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 50 15 ]
+E_data_garmin_maybe_source_maybeView_mc_50_15_60_8_if_stmt:
+        %tmp.52 = lgetv %hour.1;
+        symbol [ hour %tmp.52 50 19 23 ];
+        %tmp.53 = 11;
+        %tmp.54 = lt %tmp.52 %tmp.53;
+        bf %tmp.54 @E_data_garmin_maybe_source_maybeView_mc_50_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_50_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_50_30_52_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 51 12 ]
+        %tmp.55 = "¡÷ ";
+        %tmp.56 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.56 51 26 33 ];
+        %tmp.57 = add %tmp.55 %tmp.56;
+        %tmp.58 = " ¡÷\nAM";
+        %tmp.59 = add %tmp.57 %tmp.58;
+        ret %tmp.59;
+E_data_garmin_maybe_source_maybeView_mc_50_30_52_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_50_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_50_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 52 15 ]
+E_data_garmin_maybe_source_maybeView_mc_52_15_60_8_if_stmt:
+        %tmp.60 = lgetv %hour.1;
+        symbol [ hour %tmp.60 52 19 23 ];
+        %tmp.61 = 13;
+        %tmp.62 = lt %tmp.60 %tmp.61;
+        bf %tmp.62 @E_data_garmin_maybe_source_maybeView_mc_52_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_52_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_52_30_54_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 53 12 ]
+        %tmp.63 = "¡ö ";
+        %tmp.64 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.64 53 26 33 ];
+        %tmp.65 = add %tmp.63 %tmp.64;
+        %tmp.66 = " ¡ö\nNOON";
+        %tmp.67 = add %tmp.65 %tmp.66;
+        ret %tmp.67;
+E_data_garmin_maybe_source_maybeView_mc_52_30_54_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_52_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_52_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 54 15 ]
+E_data_garmin_maybe_source_maybeView_mc_54_15_60_8_if_stmt:
+        %tmp.68 = lgetv %hour.1;
+        symbol [ hour %tmp.68 54 19 23 ];
+        %tmp.69 = 17;
+        %tmp.70 = lt %tmp.68 %tmp.69;
+        bf %tmp.70 @E_data_garmin_maybe_source_maybeView_mc_54_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_54_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_54_30_56_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 55 12 ]
+        %tmp.71 = "¡ø ";
+        %tmp.72 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.72 55 26 33 ];
+        %tmp.73 = add %tmp.71 %tmp.72;
+        %tmp.74 = " ¡ø\nAFTERNOON";
+        %tmp.75 = add %tmp.73 %tmp.74;
+        ret %tmp.75;
+E_data_garmin_maybe_source_maybeView_mc_54_30_56_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_54_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_54_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 56 15 ]
+E_data_garmin_maybe_source_maybeView_mc_56_15_60_8_if_stmt:
+        %tmp.76 = lgetv %hour.1;
+        symbol [ hour %tmp.76 56 19 23 ];
+        %tmp.77 = 19;
+        %tmp.78 = lt %tmp.76 %tmp.77;
+        bf %tmp.78 @E_data_garmin_maybe_source_maybeView_mc_56_15_60_8_if_false;
+E_data_garmin_maybe_source_maybeView_mc_56_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_56_30_58_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 57 12 ]
+        %tmp.79 = "¡ò ";
+        %tmp.80 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.80 57 26 33 ];
+        %tmp.81 = add %tmp.79 %tmp.80;
+        %tmp.82 = " ¡ò\nDUSK";
+        %tmp.83 = add %tmp.81 %tmp.82;
+        ret %tmp.83;
+E_data_garmin_maybe_source_maybeView_mc_56_30_58_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_56_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_56_15_60_8_if_false:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 58 15 ]
+E_data_garmin_maybe_source_maybeView_mc_58_15_60_8_if_stmt:
+        %tmp.84 = lgetv %hour.1;
+        symbol [ hour %tmp.84 58 19 23 ];
+        %tmp.85 = 23;
+        %tmp.86 = lt %tmp.84 %tmp.85;
+        bf %tmp.86 @E_data_garmin_maybe_source_maybeView_mc_58_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_58_15_60_8_if_true:
+E_data_garmin_maybe_source_maybeView_mc_58_30_60_8_start:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 59 12 ]
+        %tmp.87 = "¡ï ";
+        %tmp.88 = lgetv %timeStr.3;
+        symbol [ timeStr %tmp.88 59 26 33 ];
+        %tmp.89 = add %tmp.87 %tmp.88;
+        %tmp.90 = " ¡ï\nEVENING";
+        %tmp.91 = add %tmp.89 %tmp.90;
+        ret %tmp.91;
+E_data_garmin_maybe_source_maybeView_mc_58_30_60_8_stop:
+        goto @E_data_garmin_maybe_source_maybeView_mc_58_15_60_8_if_end;
+E_data_garmin_maybe_source_maybeView_mc_58_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_56_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_54_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_52_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_50_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_48_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_46_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_44_15_60_8_if_end:
+E_data_garmin_maybe_source_maybeView_mc_42_8_60_8_if_end:
+[ "E:\data\garmin\maybe\source\maybeView.mc" 62 8 ]
+        %tmp.92 = "??:??";
+        ret %tmp.92;
+E_data_garmin_maybe_source_maybeView_mc_37_50_63_4_stop:
+    }
+    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 68; @symbol_functiondef = [onHide,68,13,19]; ]
     function onHide() as Void {
     }
-    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 42; @symbol_functiondef = [onExitSleep,42,13,24]; ]
+    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 72; @symbol_functiondef = [onExitSleep,72,13,24]; ]
     function onExitSleep() as Void {
     }
-    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 46; @symbol_functiondef = [onEnterSleep,46,13,25]; ]
+    [ @file = "E:\data\garmin\maybe\source\maybeView.mc"; @line = 76; @symbol_functiondef = [onEnterSleep,76,13,25]; ]
     function onEnterSleep() as Void {
     }
 }

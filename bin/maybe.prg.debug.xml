@@ -13,23 +13,46 @@
 <entry filename="E:\\data\\garmin\\maybe\\source\\maybeApp.mc" id="7" lineNum="8" parent="globals/maybeApp" pc="268435556" symbol="initialize"/>
 <entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="11" lineNum="13" parent="globals/maybeView" pc="268435569" symbol="onLayout"/>
 <entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="11" lineNum="14" parent="globals/maybeView" pc="268435571" symbol="onLayout"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="13" lineNum="8" parent="globals/maybeView" pc="268435605" symbol="initialize"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="13" lineNum="9" parent="globals/maybeView" pc="268435607" symbol="initialize"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="24" parent="globals/maybeView" pc="268435620" symbol="onUpdate"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="26" parent="globals/maybeView" pc="268435623" symbol="onUpdate"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="27" parent="globals/maybeView" pc="268435635" symbol="onUpdate"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="28" parent="globals/maybeView" pc="268435689" symbol="onUpdate"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="29" parent="globals/maybeView" pc="268435713" symbol="onUpdate"/>
-<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="15" lineNum="32" parent="globals/maybeView" pc="268435725" symbol="onUpdate"/>
-<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="13" parent="globals/Rez/Layouts" pc="268435746" symbol="WatchFace"/>
-<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="14" parent="globals/Rez/Layouts" pc="268435757" symbol="WatchFace"/>
-<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="16" lineNum="16" parent="globals/Rez/Layouts" pc="268435861" symbol="WatchFace"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="37" parent="globals/maybeView" pc="268435605" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="38" parent="globals/maybeView" pc="268435608" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="39" parent="globals/maybeView" pc="268435616" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="40" parent="globals/maybeView" pc="268435624" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="42" parent="globals/maybeView" pc="268435661" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="43" parent="globals/maybeView" pc="268435677" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="44" parent="globals/maybeView" pc="268435692" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="45" parent="globals/maybeView" pc="268435700" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="46" parent="globals/maybeView" pc="268435715" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="47" parent="globals/maybeView" pc="268435723" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="48" parent="globals/maybeView" pc="268435738" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="49" parent="globals/maybeView" pc="268435746" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="50" parent="globals/maybeView" pc="268435761" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="51" parent="globals/maybeView" pc="268435769" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="52" parent="globals/maybeView" pc="268435784" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="53" parent="globals/maybeView" pc="268435792" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="54" parent="globals/maybeView" pc="268435807" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="55" parent="globals/maybeView" pc="268435815" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="56" parent="globals/maybeView" pc="268435830" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="57" parent="globals/maybeView" pc="268435838" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="58" parent="globals/maybeView" pc="268435853" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="59" parent="globals/maybeView" pc="268435861" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="12" lineNum="62" parent="globals/maybeView" pc="268435876" symbol="getChineseTimeDescription"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="14" lineNum="8" parent="globals/maybeView" pc="268435882" symbol="initialize"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="14" lineNum="9" parent="globals/maybeView" pc="268435884" symbol="initialize"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="16" lineNum="24" parent="globals/maybeView" pc="268435897" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="16" lineNum="26" parent="globals/maybeView" pc="268435900" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="16" lineNum="27" parent="globals/maybeView" pc="268435912" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="16" lineNum="29" parent="globals/maybeView" pc="268435924" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="16" lineNum="30" parent="globals/maybeView" pc="268435948" symbol="onUpdate"/>
+<entry filename="E:\\data\\garmin\\maybe\\source\\maybeView.mc" id="16" lineNum="33" parent="globals/maybeView" pc="268435960" symbol="onUpdate"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="17" lineNum="13" parent="globals/Rez/Layouts" pc="268435981" symbol="WatchFace"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="17" lineNum="14" parent="globals/Rez/Layouts" pc="268435992" symbol="WatchFace"/>
+<entry filename="e:\\data\\garmin\\maybe\\bin\\gen\\006-B3992-00\\source\\Rez.mcgen" id="17" lineNum="16" parent="globals/Rez/Layouts" pc="268436104" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
 <entry field="true" id="8388611" module="true" symbol="Toybox"/>
-<entry field="true" id="10" symbol="AppName"/>
+<entry field="true" id="11" symbol="AppName"/>
 <entry id="5" module="true" symbol="globals/Rez/Strings"/>
 <entry id="8388648" module="true" symbol="WatchUi"/>
 <entry id="2" module="true" symbol="globals/Rez"/>
@@ -50,7 +73,7 @@
 <entry id="8388644" module="true" symbol="System"/>
 <entry id="8388769" module="true" object="true" symbol="Rez"/>
 <entry id="8388640" module="true" symbol="Lang"/>
-<entry field="true" id="9" symbol="LauncherIcon"/>
+<entry field="true" id="10" symbol="LauncherIcon"/>
 <entry id="8388610" symbol="statics"/>
 <entry id="8389123" method="true" symbol="onShow"/>
 <entry id="8389350" module="true" symbol="globals"/>
@@ -63,16 +86,19 @@
 <entry id="6" object="true" symbol="maybeApp"/>
 <entry field="true" id="8389347" symbol="color"/>
 <entry id="8" module="true" symbol="Layouts"/>
+<entry id="9" method="true" symbol="getChineseTimeDescription"/>
+<entry field="true" id="8389743" symbol="backgroundColor"/>
 <entry id="8389125" method="true" symbol="onHide"/>
 <entry id="8388635" module="true" symbol="Application"/>
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268435604" name="dc" stackId="1" startPc="268435569"/>
-<entry arg="true" endPc="268435745" name="dc" stackId="1" startPc="268435620"/>
-<entry endPc="268435744" name="clockTime" stackId="2" startPc="268435623"/>
-<entry endPc="268435744" name="timeString" stackId="3" startPc="268435623"/>
-<entry endPc="268435744" name="view" stackId="4" startPc="268435623"/>
-<entry arg="true" endPc="268435870" name="dc" stackId="1" startPc="268435746"/>
+<entry arg="true" endPc="268435881" name="clockTime" stackId="1" startPc="268435605"/>
+<entry arg="true" endPc="268435980" name="dc" stackId="1" startPc="268435897"/>
+<entry endPc="268435979" name="clockTime" stackId="2" startPc="268435900"/>
+<entry endPc="268435979" name="timeString" stackId="3" startPc="268435900"/>
+<entry endPc="268435979" name="view" stackId="4" startPc="268435900"/>
+<entry arg="true" endPc="268436113" name="dc" stackId="1" startPc="268435981"/>
 </localVars>
 <deviceInfo deviceVersion="de121dfa604491767422db2c3063530f8fd6465b" partNumber="006-B3992-00"/>
 <annotations>
@@ -84,9 +110,9 @@
 <dataEntry label="globals/maybeApp" offset="125" parentId="globals" symbolId="maybeApp" type="class"/>
 <dataEntry label="globals/Rez" offset="196" parentId="globals" symbolId="Rez" type="module"/>
 <dataEntry label="globals/maybeView" offset="249" parentId="globals" symbolId="maybeView" type="class"/>
-<dataEntry label="globals/Rez/Drawables" offset="347" parentId="Rez" symbolId="Drawables" type="module"/>
-<dataEntry label="globals/Rez/Layouts" offset="382" parentId="Rez" symbolId="Layouts" type="module"/>
-<dataEntry label="globals/Rez/Strings" offset="417" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/Drawables" offset="356" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="391" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="426" parentId="Rez" symbolId="Strings" type="module"/>
 </dataEntryOffsetMappings>
 <functions>
 <functionEntry accessMode="public" endPc="268435468" name="&lt;init&gt;" parent="maybeApp" startPc="268435457">
@@ -134,20 +160,24 @@
 <param id="dc"/>
 <documentation/>
 </functionEntry>
+<functionEntry accessMode="public" endPc="268435881" name="getChineseTimeDescription" parent="maybeView" startPc="268435605">
+<param id="clockTime"/>
+<documentation/>
+</functionEntry>
 <functionEntry accessMode="public" name="onEnterSleep" parent="maybeView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435619" name="initialize" parent="maybeView" startPc="268435605">
+<functionEntry accessMode="public" endPc="268435896" name="initialize" parent="maybeView" startPc="268435882">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="onHide" parent="maybeView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435745" name="onUpdate" parent="maybeView" startPc="268435620">
+<functionEntry accessMode="public" endPc="268435980" name="onUpdate" parent="maybeView" startPc="268435897">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268435870" name="WatchFace" parent="Layouts" startPc="268435746">
+<functionEntry accessMode="public" endPc="268436113" name="WatchFace" parent="Layouts" startPc="268435981">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
